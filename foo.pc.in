@@ -3,10 +3,10 @@ exec_prefix=@CMAKE_INSTALL_PREFIX@
 libdir=${exec_prefix}/@CMAKE_INSTALL_LIBDIR@
 includedir=${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
 
-Name: Audio Metadata
+Name: CPP Lib Template
 Description: @PROJECT_DESCRIPTION@
 Version: 1.0
 
 Requires:
-Libs: -L${libdir} -audiometadata
+Libs: -L${libdir} -cpplibtemplate
 Cflags: -I${includedir}
